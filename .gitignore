@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Testing & Logs
+.pytest_cache/
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Snapshots (Keep folder structure with .gitkeep)
+data/snapshots/*.jpg
+!data/snapshots/.gitkeep
+
+# Redundant root weights
+/yolov8n.pt
